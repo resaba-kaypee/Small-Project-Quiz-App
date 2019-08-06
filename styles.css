@@ -1,0 +1,76 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body{
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  background: darkslategray;
+  color: antiquewhite;
+  font-family: 'Comic Sans MS';
+}
+.container{
+  width: 70%;
+  height: 100%;
+  background: seagreen;
+  padding: 5px;
+  margin: 0px auto;
+  overflow: auto;
+}
+header{
+  text-align: center;
+  margin: 10px 0;
+  border-bottom: 2px double antiquewhite; 
+}
+h1, p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 3px;
+}
+h3{
+  margin-left: 15px;
+}
+
+input[type="radio"] {
+  margin-left: 40px; 
+}
+
+section{
+  min-height: 400px;
+}
+
+#submitButton{
+  background: darkslategray;
+  border-radius: 35px;
+  padding: 0 20px;
+  font-family: 'Comic Sans MS';
+  font-size: 14px;
+  color: antiquewhite;
+  border-color: #1ecd97;
+  border-width: 1px;
+  outline: none !important;
+  min-height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+#results{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: darkred;
+  font-family: 'Comic Sans MS';
+  font-size: 26px;
+  color: antiquewhite;
+}
+
+footer{
+  text-align: center;
+}
+
+
+
